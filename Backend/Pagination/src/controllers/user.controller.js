@@ -58,36 +58,5 @@ router.post("/signupp",async function(req,res){
 })
 
 
-//confirmation email 
-
-router.get('/createUser', async function(req, res){
- 
-  const user = new User(req.body)
-  const result = await user.save()
-
-  let message = {
-    from: 'neha_fw11_081@masai.school',
-    to: user.email,
-    subject:` Welcome to ABC system ${user.first_name} ${user.last_name}`,
-    text: ` Hi ${user.first_name}, Please confirm your email address`,
-  };
-
-  transporter.sendMail(message)
- 
-  //create a set of admins
-  adminEmails.forEach((email)=> {
-    let message = {
-      from: 'neha_fw11_081@masai.school',
-      to:email,
-      subject:`${user.first_name} ${user.last_name} has registered with us`,
-      text:  `Please welcome ${user.first_name} ${user.last_name}`,
-    };
-  
-    transporter.sendMail(message)
-  })
-
-
-  return res.send(result)
-})
 
 module.exports= router;

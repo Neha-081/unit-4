@@ -4,6 +4,9 @@ const userSchema= new mongoose.Schema({
     last_name:{type:String,required:true},
     email:{type:String,required:true}
 
+},{
+    timestamps:false,
+    versionKey:false
 })
 
 module.exports= mongoose.model("user",userSchema);
