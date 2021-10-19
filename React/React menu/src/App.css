@@ -1,0 +1,105 @@
+.join{
+  background-color: rgb(34, 108, 177);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 135px;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.contact{
+  background-color: rgb(109, 3, 9);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 135px;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.download{
+  background-color: rgb(99, 47, 4);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 135px;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.help{
+  background-color: rgba(65, 3, 94, 0.945);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 135px;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.home{
+  background-color: rgb(187, 9, 128);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 135px;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.login{
+  background-color: rgb(236, 171, 73);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 135px;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.setting{
+  background-color: rgb(100, 97, 97);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 135px;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.search{
+  background-color: rgb(31, 92, 7);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 135px;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+div{
+  display: flex;
+}
+.div1{
+  flex-direction: column;
+}
+.div2{
+  flex-direction: column;
+}
