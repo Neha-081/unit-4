@@ -1,0 +1,58 @@
+.maindiv{
+  max-width: 480px;
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.head{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 31px;
+  margin-left: 30px;
+  font-family: sans-serif;
+}.para{
+  
+  margin-left: 30px;
+  font-size: 20px;
+  color: rgb(80, 78, 78);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}.flexdiv{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  font-size: 18px;
+  color: gray;
+  font-weight: 600;
+}.dollar{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  max-width: 200px;
+}.strike{
+  margin-left: 20px;
+  color: red;
+margin-top: 27px;
+}button{
+ margin-left: 120px;
+ width: 200px;
+ padding: 20px 40px;
+ padding-top: 15px;
+ height: 50px;
+ border-radius: 10px;
+ background-color: rgb(6, 175, 6);
+ font-size: 18px;
+ color: white;
+ font-weight: bold;
+ border: none;
+ margin-top: 20px;
+}.url1{
+ height: 40px;
+ width: 60px;
+margin-left: 85px;
+border-radius: 50%;
+}.url2{
+  height: 40px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
