@@ -1,0 +1,13 @@
+h1{
+ text-align: center;
+ font-size: 60px;
+
+}
+div{
+ text-align: center;
+ font-size: 30px;
+}button{
+  padding: 15px;
+  margin: 10px;
+  font-size: 18px;
+}
