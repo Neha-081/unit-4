@@ -1,0 +1,104 @@
+body{
+  background-color: rgb(224, 216, 216);
+}
+#maindiv{
+  background-color: rgb(44, 43, 43);
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 30px;
+  border-radius: 20px;
+}.head1{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: bold;
+ font-size: 50px;
+ text-align: center;
+ color: wheat;
+}.secdiv{
+  background-color:rgb(77, 76, 76) ;
+  height: 65px;
+  padding: 15px;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.thirdiv{
+  overflow-y: auto;
+  min-width: 250px;
+  overflow-x: hidden;
+  height: 200px;
+  width: 830px;
+  margin: auto;
+  height: 380px;
+}
+.fourthdivs{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(65, 64, 64);
+width: 800px;
+margin: auto;
+margin-top: 5px;
+height: 50px;
+color: whitesmoke;
+font-size: 27px;
+font-weight: bold;
+padding: 15px;
+
+}
+.inp1{
+  width: 500px;
+  height: 50px;
+  border-radius: 16px;
+  border: 4px solid orange;
+  font-size: 25px;
+  padding-left: 15px;
+  outline: none;
+  margin-left: 10px;
+}.btn1{
+  height: 50px;
+  border-radius: 30px;
+  color: white;
+  background-color: orange;
+  border: none;
+  font-weight: bolder;
+  width: 130px;
+  font-size: 20px;
+  margin-left: 100px;
+  outline: none;
+}.pendingbtn{
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(196, 128, 4);
+  border: none;
+  color: white;
+ font-family:cursive;
+
+}
+.removebtn{
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color:rgb(241, 32, 32);
+  border: none;
+  color: white;
+  margin-right: 15px;
+  margin-left: 10px;
+ font-family:cursive;
+
+}.comp{
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: green;
+  border: none;
+  color: white;
+ font-family:cursive;
+}
