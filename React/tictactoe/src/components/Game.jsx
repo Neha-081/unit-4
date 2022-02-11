@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { calculateWinner } from "../helper";
 import Board from "./Board";
+import '../App.css'
 
 const Game = () => {
   const [history, setHistory] = useState([Array(9).fill(null)]);
@@ -48,7 +49,7 @@ const Game = () => {
           {renderMoves()}
           </div>
         </div>
-        <h3>{winner ? "Winner: " + winner : "Next Player: " + xO}</h3>
+       {winner ? <h1 className="winner">{("Winner: " + winner)}</h1> :  <h4 className="next">{"Next Player: " + xO}</h4>}
       </div>
     </>
   );

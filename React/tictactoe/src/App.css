@@ -76,4 +76,30 @@ li {
 }.flex{
   display: flex;
   justify-content: space-between;
+}.winner{
+  color: orange;
+  font-size: 50px;
+
+}
+@media (max-width:600px){
+body{
+  padding: 0;
+}
+.board{
+  width: 250px;
+  height: 250px;
+  padding: 0;
+  margin: 0
+}.info-wrapper button{
+  font-size: 10px;
+  margin: 0;
+}.next,.winner{
+ margin:400px 130px 0 -200px;
+ font-size: 25x;
+
+}.squares{
+  font-size: 3rem;
+}.winner{
+  font-size: 25px;
+}
 }
